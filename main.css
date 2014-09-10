@@ -1,0 +1,88 @@
+/*-----begin horizontally spaced CSS-----*/
+
+.img1 {
+	padding-left: 60px;
+	padding-right: 20px;
+
+}
+
+.img2 {
+	padding-left: 10px;
+	padding-right: 30px;
+}
+
+.img3 {
+	padding-left: 30px;
+	padding-right: 20px;
+}
+
+.diff>* {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+}
+
+.diff>p, .diff>img {
+	/*display: inline-block;
+	vertical-align: top;
+	left: 20px;
+	right: 20px;
+	text-align: left;*/
+	padding-left: 20px;
+	padding-right: 10px;
+
+
+}
+
+.diff {
+	text-align: center;
+}
+
+
+
+
+/*-----begin vertically spaced css-----*/
+
+
+
+.vert {
+	padding-top: 80px;
+	padding-bottom: 65px;
+}
+
+.diffhtml>* {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+
+}
+
+.diffhtml>p, .diffhtml>img {
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+.diffhtml {
+	text-align: center;
+	padding-top: 60px;
+}
+
+
+
+
+/*-----begin horizontal list css-----*/
+
+
+
+.horiz {
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+
+}
+
+.horiz>li {
+	vertical-align: top;
+}
+
+
