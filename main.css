@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /*-----begin horizontally spaced CSS-----*/
 
 .img1 {
@@ -76,17 +76,206 @@
 
 
 .horiz {
-	display: inline-block;
-	float: left;
-	overflow: hidden;
+	display: inline-table;
+	margin: 0;
+	padding: 0;
 
 }
 
 .horiz>li {
-	vertical-align: top;
+	list-style: none;
+	display: inline;
+	margin: 0;
+	padding: 0;
 }
 
 
-=======
-/* ADD YOUR STYLES HERE */
->>>>>>> 22e612871bc3137c71ef85b5e9980e640e000106
+
+
+
+/*-----begin buttons css-----*/
+
+.buy {
+	display: inline-block;
+	font-size: 24px;
+	font-family: sans-serif;
+	color: white;
+	background-color: #E5777E;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-radius: 7px;
+	text-decoration: none;
+
+}
+
+.learn {
+	display: inline-block;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: white;
+	background-color: #E5777E;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-radius: 7px;
+	text-decoration: none;
+
+}
+
+.ok {
+	display: inline-block;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: white;
+	background-color: #E5777E;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-radius: 7px;
+	text-decoration: none;	
+}
+
+.lm {
+	display: inline-block;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: white;
+	background-color: #E5777E;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-radius: 7px;
+	text-decoration: none;
+}
+
+.accept {
+	display: inline-block;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: white;
+	background-color: #E5777E;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-radius: 7px;
+	text-decoration: none;
+	border: none;
+}
+
+.submit {
+	display: inline-block;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: white;
+	background-color: #E5777E;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-radius: 7px;
+	text-decoration: none;
+	border: none;
+}
+
+
+
+
+
+/*-----begin navigation css-----*/
+
+
+.nav {
+	display: inline-table;
+	margin: 0px;
+	border-radius: 7px;
+	overflow: hidden;
+	padding: 0px;
+	color: white;
+}
+
+.nav>li {
+	display: inline-block;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: white;
+
+}
+
+.nav a {
+	display: inline-block;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: white;
+	background-color: #E5777E;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	background-color: #FF8ED4;
+}
+
+
+
+/*-----begin pagination css-----*/
+
+.pagination {
+	display: inline-block;
+	list-style: none;
+	color: #E5777E;
+
+}
+.pagination .prev {
+	border-bottom: none;
+}
+
+.pagination .next {
+	border-bottom: none;
+}
+
+
+.pagination .span {
+	color: #C5C5C5;
+	border-bottom: 3px solid #C5C5C5; 
+	
+
+}
+
+.pagination li {
+	display: inline-block;
+	font-size: 20px;
+	font-family: sans-serif;
+	padding-bottom: 5px;
+	padding-left: 3px;
+	padding right: 3px;
+	border-bottom: 3px solid #E5777E;
+
+
+}	
+
+.pagination a {
+	list-style: none;
+	color: #E5777E;
+	font-family: sans-serif;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 5;
+	text-decoration: none;
+	
+
+}
+
+
+
+
+
+
