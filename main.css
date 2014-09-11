@@ -276,6 +276,76 @@
 
 
 
+/*-----begin comment stream css-----*/
+
+
+
+.grav1 {
+	float: left;
+	padding-right: 10px;
+
+}
+
+.text1 {
+	overflow: hidden;
+
+}
+
+.mar1 {
+	margin-bottom: 45px;
+
+}
+
+.grav2 {
+	float: left;
+	padding-right: 10px;
+
+}
+
+.text2 {
+	overflow: hidden;
+
+}	
+
+.mar2 {
+	margin-bottom: 45px;
+
+}
+
+.grav3 {
+	float: left;
+	padding-right: 10px;
+
+}
+
+.text3 {
+	overflow: hidden;
+
+}
+
+.mar3 {
+	margin-bottom: 45px;
+}
+
+.grav4 {
+	padding-left: 10px;
+	
+}
+
+.text4 {
+	display: inline-block;
+	padding-left: 80px;
+	margin-top: -90px;
+	overflow: hidden;
+
+}
+
+.mar4 {
+
+
+}
+
+
 
 
 
